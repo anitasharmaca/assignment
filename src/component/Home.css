@@ -13,7 +13,7 @@ header.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 45px;
     width: 100%;
 }
 header.header h5{
@@ -31,6 +31,7 @@ header.header nav .navmenu{
     border-radius: 5px;
     text-decoration: none;
     font-size: 14px;
+    margin: 2px 5px;
     transition: all ease-in 0.6s;
 }
 header.header nav .navmenu:hover, header.header nav .navmenu:focus{
@@ -41,7 +42,7 @@ header.header div.right{
     display: flex;
 }
 header.header div.right div.user{
-    line-height: 6px;
+    line-height: 10px;
     font-size: 10px;
     margin-top: 10px;
     padding: 0 10px;
@@ -55,7 +56,7 @@ header.header div.right div.img{
 }
 /*home page css*/
 section{
-    height: 95vh;
+    height: 93vh;
     width: 100%;
     background-color: white;
 }
