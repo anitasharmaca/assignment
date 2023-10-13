@@ -55,7 +55,7 @@ const User = () => {
         </span>
         </div>
       </div>
-      <div className="content container-fluid border">
+      <div className="content wid border">
         <p>TEST NAME</p>
         <br />
         <p>RESULT</p>
@@ -63,9 +63,9 @@ const User = () => {
         <br />
         <p>NORMAL RANGE</p>
       </div>
-      <p className="text-center br" style={{textDecoration: 'underline', marginBottom: '25px'}}>Bio Chemistry</p>
+      <p className="center br" style={{textDecoration: 'underline', marginBottom: '25px'}}>Bio Chemistry</p>
       <div style={{paddingLeft: '10vw'}}><p className="br">FBS PRBS</p></div>
-      <div className="content container-fluid gray">
+      <div className="content wid gray">
         <div>
           <p>fasting blood sugar</p>
           <p>post prandial blood sugar</p>
@@ -84,13 +84,13 @@ const User = () => {
         </div>
       </div>
       <div style={{paddingLeft: '10vw'}}><p className="br">LIPID PROFILE</p></div>
-      <div className="content container-fluid gray">
+      <div className="content wid gray">
         <div>
           <p>total cholesteral</p>
         </div><br />
         <div>
           <p>138.7</p>
-        </div>
+        </div><br /><br />
         <div>
           <p>mg/di</p>
         </div><br />
@@ -101,13 +101,13 @@ const User = () => {
         </div>
       </div>
       <br />
-      <div className="content container-fluid gray">
+      <div className="content wid gray">
         <div>
           <p>triglycerides</p>
         </div><br />
         <div>
           <p>138.7</p>
-        </div>
+        </div><br /><br />
         <div>
           <p>mg/di</p>
         </div><br />
@@ -117,13 +117,13 @@ const User = () => {
           <p>high 240</p>
         </div>
       </div><br /><br />
-      <p className="text-center gray">***End of report***</p>
+      <p className="center gray">***End of report***</p>
       <div className="sign">
         <p className='sig'>Signature</p>
         <p className="gray">lab technologist</p>
       </div>
       <hr />
-      <div className="content">
+      <div className="content wid">
         <p className="gray">thanks for refferal</p>
         <p className="gray">phone number: 9876543210</p>
       </div>
