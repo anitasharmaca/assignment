@@ -1,0 +1,311 @@
+*{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(246, 245, 245);
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  /*headerr------------*/
+  div.navBar div.top{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;height: 80px;
+  }
+  div.navBar div.top h2{
+    background-color: white;
+    font-weight: lighter;
+    margin: 5px 22px;
+    color: #61dafb;
+  }
+  div.navBar div.top input{
+    border: none;
+    padding: 5px 25px;
+    width: 100%;
+    height: 35px;
+  }
+  div.navBar div.top select{
+    border: none;
+    height: 40px;
+    background: none;
+    width: 100px;
+    margin-right: 35px;
+  }
+  div.navBar main.menu{
+    background-color: white;
+    height: 68vh;
+    width: 285px;
+    margin: 50px;
+    display: flex;flex-direction: column;
+    padding-top: 53px;
+    overflow: hidden;
+  }
+  div.navBar main.menu a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    font-size: 21px;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    transition: all ease-in 0.6s;
+    color: #61dafb;
+  }
+  div.navBar main.menu a i{
+    width: 25px;
+    padding-left: 40px;
+    padding-right: 5px;
+    background-color: white;
+    transition: all ease-in 0.6s;
+  }
+  div.navBar main.menu a:hover{
+    background-color: rgb(206, 201, 201);
+    border-left: #61dafb 4px solid;
+    padding-left: 15px;
+  }
+  div.navBar main.menu a:hover i{
+    background-color: rgb(206, 201, 201);
+  }
+  div.navBar main.menu a:focus{
+    background-color: rgb(240, 215, 251);
+    color: rgb(118, 24, 173);
+    border-left: rgb(118, 24, 173) 4px solid;
+  }
+  div.navBar main.menu a:focus i{
+    color: rgb(118, 24, 173);;
+    background-color: rgb(240, 215, 251);
+  }
+  /*section --------------*/
+  section{
+    width: 67vw;height: 75vh;
+    position: absolute;
+    top: 140px;left: 400px;
+  }
+  div.boxes{
+    display: flex;
+  }
+  div.boxes div.box{
+    width: 400px;
+    border-radius: 25px;
+    height: 180px;
+    background-color: white;
+    margin: 28px 20px 5px 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.3px 2.4px 3.2px;
+  }
+  div.boxes div.box span.inside{
+    background-color: white;
+    height: 140px;
+    display: flex;
+    border-radius: 35px;
+    align-items: flex-end;
+  }
+  div.boxes div.box span.inside i{
+    padding: 20px;
+    width: 50px;background-color: white;
+    font-size: 45px;color: #61dafb;
+  }
+  div.boxes div.box span.inside h3{
+    padding: 15px;
+    background-color: white;
+  }
+  div.boxes div.box p{
+    background-color: white;
+    color: gray;width: 100px;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 12px;
+  }
+  div.boxes div.big{
+    width: 470px;height: 350px;
+    background-color: white;
+    margin: 20px 20px 5px 0px;
+    border-radius: 30px;overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.3px 2.4px 3.2px;
+  }
+  div.boxes div.big img.graph{
+    background-size: cover;
+    width: 500px;height: 400px;
+  }
+  p.padding{
+    font-size: 18px;
+    padding: 15px 1px;
+    color: rgb(65, 62, 62);
+  }
+  button.singleBtn{
+    width: 120px;height: 35px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  div.flex{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  div.flex p{
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  div.flex input{
+    width: 15px;
+    margin: 1px 35px;
+  }
+  div.flex div.line{
+    background-color: #fff;
+    border-left: 1.5px solid black;
+    text-align: center;
+  }
+  div.flex div.line p.max{
+    width: 260px;
+  }
+  div.boxes div.work{
+    width: 460px;
+    height: 190px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  div.boxes div.gap{
+    margin-left: 35px;
+  }
+  div.boxes div.work h1.centerStyle{
+      background-color: white;
+      font-size: 30px;
+      margin-bottom: 25px;
+  }
+  div.clear{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    align-items: end;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding-bottom: 55px;
+  }
+  div.clear span, div.clear span label{
+    width: 500px;
+    background-color: white;
+    font-size: 21px;
+  }
+  div.clear span select.input{
+    color: gray;
+    width: 500px;
+    background-color: white;
+    font-size: 21px;
+    border-color: rgb(179, 176, 176);
+    margin-top: 10px;
+  }
+  div.clear button.dlt{
+      background-color: black;
+      border-radius: 10px;
+      padding: 9px;
+      width: 180px;
+      color: white;
+      cursor: pointer;
+  }
+  div.clear button.minus{
+    margin-right: -30px;
+  }
+  form.container{
+    background-color: white;
+    width: 100%;
+    height: 69vh;
+    padding-top: 25px;
+    border-radius: 25px;
+  }
+  form.container div.info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form.container div.info span label.labeling{
+    background-color: white;
+    font-size: 20px;
+  }
+  form.container div.info span{
+    background-color: white;
+    margin: 15px;
+    width: 280px;
+    padding: 15px 5px;
+  }
+  form.container div.info span input{
+    width: 275px;
+    height: 37px;
+    border-color: black;
+    border-radius: 4px;
+    font-size: 19px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    background-color: white;
+  }
+  form.container div.info button.hide{
+    width: 620px;
+    visibility: hidden;
+  }
+  form.container div.buttons button.submit{
+    background-color: black;
+    border-radius: 10px;
+    padding: 9px;
+    width: 180px;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+  }
+  form.container div.buttons{
+    background-color: #fff;
+    justify-content: center;
+    align-items: end;
+    height: 120px;
+    display: flex;
+  }
+  /* add users*/
+  div.flex p img.userPic{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 5px 15px 5px 2px;
+  }
+  div.flex p span.icon{
+    background-color: white;
+    text-align: left;
+  }
+  div.flex p span.icon i{
+    padding: 8px 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 2px;
+    font-size: 13px;
+    transition: 0.3s;
+  }
+  div.flex p span.icon i:hover{
+    background-color: #b4dfeb;
+  }
+  div.flex p i.switch{
+    background-color: white;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(15, 83, 15);
+  }

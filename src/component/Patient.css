@@ -1,0 +1,19 @@
+div.flex{
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5px 15px;
+    color: rgb(57, 47, 78);
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button.dot{
+    height: 3px;
+    padding: 2px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

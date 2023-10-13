@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "anita sharma",
+      "city": "chandigarh",
+      "userid": 1,
+      "id": 1
+    },
+    {
+      "name": "rohit sharma",
+      "city": "banglore",
+      "userid": 2,
+      "id": 2
+    },
+    {
+      "name": "ashita",
+      "city": " delhi",
+      "userid": 3,
+      "id": 3
+    },
+    {
+      "name": "ani frank",
+      "city": "chennai",
+      "id": 4
+    },
+    {
+      "name": "ashish gujjar",
+      "city": "rajesthan",
+      "id": 5
+    },
+    {
+      "name": "deepak",
+      "city": "bihar",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Login page ----*/
+div.page{
+    width: 67vw;height: 60vh;
+    position: absolute;
+    top: 140px;left: 400px;
+  }
+  div.page form.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+    border-radius: 25px;
+  }
+  div.page h1{
+    text-align: center;
+    background-color: white;
+    color: aquamarine;
+    padding: 25px;
+    font-size: 3rem;
+  }
+  div.page form.login input{
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(135, 180, 253, 0.3);
+    border-radius: 8px;
+    font-size: 25px;
+  } 
+  div.page form.login label{
+    padding: 15px;
+    font-size: 17px;
+    color: aquamarine;
+    background-color: white;
+  }
+  div.page form.login button, button.bts{
+    margin: auto;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 12px;
+    transition: 0.3s;
+    width: 250px;
+    height: 43px;
+  }
+  div.page form.login button:hover, button.bts:hover{
+    background-color: rgba(40, 112, 228, 0.9);
+  }
+  div.page form.login button:focus{
+    transform: scale(0.96);
+  }

@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+section div.chat{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 80%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 25px;
+}
+section div.chat div.send{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 15%;
+    margin: 5% 0;
+}
+section div.chat div.send input.type{
+    height: 35px;
+    background-color: #fff;
+    padding: 3px 7px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: none;
+
+}
+section div.chat div.send button.btn{
+    background-color: black;
+    height: 30px;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 25px;
+    padding: 1px 10px;
+}
+span.right {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+span.left p, span.right p{
+    background-color: aliceblue;
+    color: black;
+    width: max-content;
+    padding: 2px 7px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+span.right p{
+    background-color: rgb(162, 201, 255);
+}
+section div.chat div.mainchat{
+    height: 75%;
+    margin: 5%;
+}
